@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="486.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="composition.FXMLDocumentController">
+    <children>
+      <Label fx:id="label" layoutX="26.0" layoutY="41.0" minHeight="16" minWidth="69" prefHeight="42.0" prefWidth="135.0" text="Enter the plain text" />
+      <Label layoutX="305.0" layoutY="41.0" prefHeight="42.0" prefWidth="175.0" text="The result" />
+      <Button layoutX="79.0" layoutY="359.0" mnemonicParsing="false" onAction="#encrypt" prefHeight="25.0" prefWidth="94.0" text="Encrypt" />
+      <Button layoutX="346.0" layoutY="359.0" mnemonicParsing="false" onAction="#dncrypt" prefHeight="25.0" prefWidth="94.0" text="Decrypt" />
+      <TextArea fx:id="t" layoutX="26.0" layoutY="101.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="t2" layoutX="293.0" layoutY="101.0" prefHeight="200.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>
